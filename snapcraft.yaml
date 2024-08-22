@@ -1,0 +1,19 @@
+name: steve-can-test
+title: steve-can-test-title
+# base: core18
+base: bare
+build-base: core22
+version: "0.0.0"
+summary: A snap I use for testing
+description: |
+  This is a snap I use for development and testing
+grade: stable
+confinement: strict
+parts:
+  my-part:
+    plugin: nil
+architectures:
+  - build-on: arm64
+    build-for: arm64
+  - build-on: RISK-V
+    build-for: RISK-V
