@@ -14,4 +14,4 @@ parts:
     plugin: nil
 architectures:
   - build-on: arm64
-    build-for: RISC-V
+    build-for: riscv64
