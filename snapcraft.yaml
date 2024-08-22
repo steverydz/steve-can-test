@@ -13,5 +13,5 @@ parts:
   my-part:
     plugin: nil
 architectures:
-  - build-on: RISC-V
-    build-for: RISC-V
+  - build-on: arm64
+    build-for: arm64
